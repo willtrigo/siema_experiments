@@ -1,0 +1,30 @@
+.siemafullscreen {
+  position: relative;
+}
+
+.image-siemaf {
+  /* in case of the content fixed*/
+  height: calc(100vh - 60px);
+}
+
+.image-siemaf img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.siemaf-pagination {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.siemaf-arrows {
+  position: absolute;
+  height: 100%;
+}
+
+.siemaf-dots:hover, .siemaf-dots:active, .siemaf-arrows:hover, .siemaf-arrows:active {
+  text-decoration: none;
+  opacity:0.3;
+}
